@@ -1,5 +1,7 @@
-<?php get_header(); ?>
+<?php
+    get_header();
 
-<main id="main"></main>
+    echo '<main></main>';
 
-<?php get_footer(); ?>
+    get_footer();
+?>
