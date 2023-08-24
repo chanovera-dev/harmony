@@ -18,3 +18,11 @@ function load_parts_footer(){
     
 }
 add_action( 'get_footer', 'load_parts_footer' );
+
+// Registro de menús
+register_nav_menus( 
+    array(
+        'primary' => __( 'Primary', 'renata' ),
+        'contact' => __( 'Contact', 'renata' ), 
+    ) 
+);
