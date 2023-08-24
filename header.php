@@ -58,10 +58,7 @@
                                     </svg>
                                 </a>
                             </li>';
-                            echo '<li><a href="'; echo wc_get_cart_url(); echo '"  title="'; _e( 'View your shopping cart' ); echo '">
-                                    '; WC()->cart->get_cart_contents_count(); echo '
-                                </a>
-                            </li>';
+                            echo '<li><a href=""></a></li>';
                         echo '</ul>';
                     }
                 ?>
