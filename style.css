@@ -51,3 +51,8 @@ main .container .section{padding:4rem 0;}
     .menu-wrapper{position:absolute; top:-100%; left:-100%;}
     /* botón de búsqueda */
     .nav svg{color:var(--color-header);}
+    /* marca */
+    .header-content .site-brand{z-index:1; display:flex; align-items:center;}
+    .header-content .site-brand a{color:var(--color-header); text-decoration:none;}
+    .header-content .site-brand .custom-logo-link:focus{outline:none;}
+    .header-content .site-brand .custom-logo-link .custom-logo{width:20rem; transition:all .3s ease;}
