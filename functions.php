@@ -26,3 +26,18 @@ register_nav_menus(
         'contact' => __( 'Contact', 'renata' ), 
     ) 
 );
+
+// Agrega soporte para los siguientes componentes
+function theme_support(){
+    
+    // Carga el título de la página en el head
+    add_theme_support( 'title-tag' );
+
+    // Permite agregar un logo personalizado al sitio
+    add_theme_support( 'custom-logo' );
+    
+    // Activa las miniaturas en los artículos en portada
+    add_theme_support( 'post-thumbnails' );
+    
+}
+add_action( 'after_setup_theme', 'theme_support' );
