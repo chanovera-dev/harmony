@@ -10,6 +10,14 @@
     <body <?php body_class(); ?>>
         <header class="main-header container">
             <section class="header-content section">
-                
+            <?php    
+                    if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+
+                        include(TEMPLATEPATH . '/parts/header/menu-button.php');
+                    } else {
+
+                        include(TEMPLATEPATH . '/parts/header/menu-button.php');
+                    }
+                ?>
             </section>
         </header>
