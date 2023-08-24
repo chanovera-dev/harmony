@@ -42,6 +42,9 @@ function theme_support(){
 }
 add_action( 'after_setup_theme', 'theme_support' );
 
+// Estilos particulares
+require_once(get_template_directory() . '/functions/components.php');
+
 // activa woocommerce
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     require_once(get_template_directory() . '/functions/woocommerce.php');
