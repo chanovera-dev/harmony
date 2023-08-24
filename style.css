@@ -36,6 +36,7 @@ main .container .section{padding:4rem 0;}
 .main-header .header-content{display:flex; align-items:center; justify-content:space-between; gap:3rem; /* height:7rem; */ height:7rem;}
     /* navegación */
     .nav{display:flex; align-items:center; gap:3rem;}
+    .nav li{display:flex; align-items:center;}
     /* botón del menú */
     .menu-button{position:relative; display:flex; gap:1rem; align-items:center; cursor:pointer; color:var(--color-header); z-index:1;}
     .menu-button .bars{display:inline-block; width:2rem; height:1.6rem; transition:all .3s ease-out;}
