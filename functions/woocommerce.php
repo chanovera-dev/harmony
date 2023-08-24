@@ -17,3 +17,6 @@ function replace_star_ratings($html, $rating) {
     }
     return $html;
 }
+
+//Disable all woocommerce stylesheets
+add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
