@@ -17,7 +17,7 @@ Tags:
 /* ajustes generales */
 html{font-size:62.5%; scroll-behavior:smooth;}
 body, header, main, footer, section, article, div, input, textarea, ul, ol, li, figure, figcaption, a{box-sizing:border-box;}
-body{font-size:1.6rem; color:var(--color-text); background-color:var(--background-color-body);}
+body{position:relative; font-size:1.6rem; color:var(--color-text); background-color:var(--background-color-body); overflow:hidden;}
 body, :is(header, footer, section, div, article) :is(div, h1, h2, h3, h4, h5, p, span, li, a, figure){margin:0;}
 :is(header, footer) :is(ol, ul){margin:0; padding:0; list-style:none;}
 a{color:var(--color-text-link); border-radius:.3rem; transition:all .3s ease;}
@@ -35,3 +35,4 @@ main .container .section{padding:4rem 0;}
 .main-header{position:fixed; top:0; width:100%; z-index:5; backface-visibility:hidden; transform:translate3d(0, 0, 0); transition:all .25s ease-in-out;}
 .main-header .header-content{display:flex; align-items:center; justify-content:space-between; gap:3rem; /* height:7rem; */ height:7rem;}
     /* menu */
+    .menu-wrapper{position:absolute; top:-100%; left:-100%;}
