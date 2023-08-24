@@ -35,9 +35,9 @@ main .container .section{padding:4rem 0;}
 .main-header{position:fixed; top:0; width:100%; z-index:5; backface-visibility:hidden; transform:translate3d(0, 0, 0); transition:all .25s ease-in-out;}
 .main-header .header-content{display:flex; align-items:center; justify-content:space-between; gap:3rem; /* height:7rem; */ height:7rem;}
     /* navegación */
-    .nav{display:flex; align-items:center;}
+    .nav{display:flex; align-items:center; gap:3rem;}
     /* botón del menú */
-    .menu-button{position:relative; display:flex; place-content:center; cursor:pointer; color:var(--color-header); z-index:1;}
+    .menu-button{position:relative; display:flex; gap:.5rem; cursor:pointer; color:var(--color-header); z-index:1;}
     .menu-button .bars{display:inline-block; width:2.5rem; height:2rem; transition:all .3s ease-out;}
     .menu-button .bars :is(.bar1, .bar2, .bar3){width:2.5rem; height:.2rem; transition:.4s; background-color:var(--color-header);}
     .menu-button .bars > div:not(:last-child){margin-bottom:.7rem;}
