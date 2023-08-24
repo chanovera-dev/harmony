@@ -26,7 +26,7 @@
                         echo '</ul>';
                         include(TEMPLATEPATH . '/parts/header/brand.php');
                         echo '<ul class="right-nav">';
-                            echo '<li><a href="' . get_home_url('/mi-cuenta') . '"></a></li>';
+                            echo '<li><a href="' . get_home_url() . '/mi-cuenta"></a></li>';
                         echo '</ul>';
                     }
                 ?>
