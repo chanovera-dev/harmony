@@ -13,16 +13,16 @@
             <?php    
                     if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
                         echo '<ul class="left-nav">';
-                            echo '<li>' . include(TEMPLATEPATH . '/parts/header/menu-button.php') . '</li>';
-                            echo '<li>' . include(TEMPLATEPATH . '/parts/header/menu.php') . '</li>';
-                            echo '<li>' . include(TEMPLATEPATH . '/parts/header/search-button.php') . '</li>';
+                            echo '<li>'; include(TEMPLATEPATH . '/parts/header/menu-button.php'); echo '</li>';
+                            echo '<li>'; include(TEMPLATEPATH . '/parts/header/menu.php'); echo '</li>';
+                            echo '<li>'; include(TEMPLATEPATH . '/parts/header/search-button.php'); echo '</li>';
                         echo '</ul>';
                         include(TEMPLATEPATH . '/parts/header/brand.php');
                     } else {
                         echo '<ul class="left-nav">';
-                            echo '<li>' . include(TEMPLATEPATH . '/parts/header/menu-button.php') . '</li>';
-                            echo '<li>' . include(TEMPLATEPATH . '/parts/header/menu.php') . '</li>';
-                            echo '<li>' . include(TEMPLATEPATH . '/parts/header/search-button.php') . '</li>';
+                        echo '<li>'; include(TEMPLATEPATH . '/parts/header/menu-button.php'); echo '</li>';
+                        echo '<li>'; include(TEMPLATEPATH . '/parts/header/menu.php'); echo '</li>';
+                        echo '<li>'; include(TEMPLATEPATH . '/parts/header/search-button.php'); echo '</li>';
                         echo '</ul>';
                         include(TEMPLATEPATH . '/parts/header/brand.php');
                     }
