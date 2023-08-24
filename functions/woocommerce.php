@@ -20,3 +20,4 @@ function replace_star_ratings($html, $rating) {
 
 //Disable all woocommerce stylesheets
 add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
+
