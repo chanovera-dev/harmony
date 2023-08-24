@@ -15,10 +15,12 @@
 
                         include(TEMPLATEPATH . '/parts/header/menu-button.php');
                         include(TEMPLATEPATH . '/parts/header/menu.php');
+                        include(TEMPLATEPATH . '/parts/header/brand.php');
                     } else {
 
                         include(TEMPLATEPATH . '/parts/header/menu-button.php');
                         include(TEMPLATEPATH . '/parts/header/menu.php');
+                        include(TEMPLATEPATH . '/parts/header/brand.php');
                     }
                 ?>
             </section>
