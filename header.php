@@ -20,11 +20,14 @@
                         include(TEMPLATEPATH . '/parts/header/brand.php');
                     } else {
                         echo '<ul class="left-nav">';
-                        echo '<li>'; include(TEMPLATEPATH . '/parts/header/menu-button.php'); echo '</li>';
-                        echo '<li>'; include(TEMPLATEPATH . '/parts/header/menu.php'); echo '</li>';
-                        echo '<li>'; include(TEMPLATEPATH . '/parts/header/search-button.php'); echo '</li>';
+                            echo '<li>'; include(TEMPLATEPATH . '/parts/header/menu-button.php'); echo '</li>';
+                            echo '<li>'; include(TEMPLATEPATH . '/parts/header/menu.php'); echo '</li>';
+                            echo '<li>'; include(TEMPLATEPATH . '/parts/header/search-button.php'); echo '</li>';
                         echo '</ul>';
                         include(TEMPLATEPATH . '/parts/header/brand.php');
+                        echo '<ul class="right-nav">';
+                            echo '<li><a href="' . get_home_url('/mi-cuenta') . '"></a></li>';
+                        echo '</ul>';
                     }
                 ?>
             </section>
