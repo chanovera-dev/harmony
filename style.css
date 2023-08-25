@@ -46,7 +46,8 @@ main .container .section{padding:4rem 0;}
     /* navegación */
     .nav.left{min-width:60px;}
     .nav{display:flex; align-items:center; gap:1rem;}
-    .nav li{display:flex; align-items:center;}
+    .nav li{position:relative; display:flex; align-items:center;}
+    .nav li:not(:last-child):before{position:absolute; content:''; width:1px; height:100%; background-color:#fff; top:0; right:0;}
     .nav li.responsive{display:none;}
     .nav li a{margin-inline:auto; color:var(--color-header); display:flex;}
     .nav li a.cart-customlocation{display:grid; width:28px; height:28px; place-content:center; color:var(--color-header); border:2px solid #fff; border-radius:0; transition:all .3s ease;}
