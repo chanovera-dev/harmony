@@ -49,7 +49,7 @@ main .container .section{padding:4rem 0;}
     .nav li a{margin-inline:auto; color:var(--color-header);}
     .primary > .menu{display:grid;}
     .primary > .menu > li{height:9rem; display:flex; align-items:center;}
-    .primary > .menu > li > a{text-transform:uppercase;font-size:3rem;}
+    .primary > .menu > li > a{text-transform:uppercase; font-size:3rem; font-weight:300;}
     .primary > .menu > li > .sub-menu{display:none;}
     /* botón del menú */
     .menu-button{position:relative; display:flex; gap:1rem; align-items:center; cursor:pointer; color:var(--color-header); font-size:0; z-index:1;}
@@ -85,7 +85,7 @@ main .container .section{padding:4rem 0;}
         /* cabecera */
         .main-header .header-content{height:10rem;}
             /* botón del menú */
-            .menu-button{font-size:1.3rem;}
+            .menu-button{font-size:1.3rem; font-weight:300;}
 
 
     }
