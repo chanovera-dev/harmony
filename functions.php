@@ -29,7 +29,10 @@ require_once(get_template_directory() . '/functions/icons.php');
 register_nav_menus( 
     array(
         'primary' => __( 'Primary', 'renata' ),
-        'contact' => __( 'Contact', 'renata' ), 
+        'contact' => __( 'Contact', 'renata' ),
+        'about-us' => __( 'About Us', 'renata' ),
+        'support' => __( 'Soporte', 'renata' ),
+        'politicals' => __( 'Politicals', 'renata' ),
     ) 
 );
 
