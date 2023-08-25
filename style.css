@@ -99,7 +99,9 @@ main .container .section{padding:4rem 0;}
 .header-content .site-brand .custom-logo-link:focus{outline:none;}
 .header-content .site-brand .custom-logo-link .custom-logo{width:20rem; transition:all .3s ease;}
 
+/* footer */
 #main-footer{color:var(--color-header);}
+.footer-content{display:grid; gap:2rem;}
 #main-footer nav:not(.contact) ul li{display:flex; align-items:center; height:3.8rem;}
 #main-footer nav:not(.contact) ul li:not(:last-child){border-bottom:1px solid rgba(255,255,255, .1);}
 
