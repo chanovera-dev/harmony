@@ -52,6 +52,8 @@ main .container .section{padding:4rem 0;}
     .primary > .menu > li > a{text-transform:uppercase; font-size:2.5rem; font-weight:300;}
     .primary > .menu > li > .sub-menu{display:none;}
     .contact .menu{display:flex; align-items:center; gap:3rem;}
+    .contact .menu li a{font-size:0; display:inline-flex;}
+    .contact .menu li a:before{position:relative; padding:8px; display:inline-block;}
     /* botón del menú */
     .menu-button{position:relative; display:flex; gap:1rem; align-items:center; cursor:pointer; color:var(--color-header); font-size:0; z-index:1;}
     .menu-button .bars{display:inline-block; width:2rem; height:1.6rem; transition:all .3s ease-out;}
