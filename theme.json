@@ -150,6 +150,24 @@
 						{
 							"fontFamily": "Montserrat",
 							"fontStretch": "normal",
+							"fontStyle": "semibold",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/montserrat/Montserrat-SemiBold.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "semibold italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/montserrat/Montserrat-SemiBoldItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
