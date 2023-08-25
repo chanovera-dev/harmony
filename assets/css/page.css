@@ -2,3 +2,4 @@
 .content > *:last-child{margin-bottom:0;}
 .content strong{font-weight:500;}
 .content h2 strong{font-weight:400;}
+.content :is(ul, ol){padding-left:1.5rem;}
