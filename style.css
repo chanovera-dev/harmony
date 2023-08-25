@@ -45,8 +45,8 @@ main .container .section{padding:4rem 0;}
     .menu-button .bars > div:not(:last-child){margin-bottom:.5rem;}
     .menu-button .bars.change{transition-delay:.8s; transform:rotate(45deg);}
     .menu-button .bars.change .bar2{width:0;}
-    .menu-button .bars.change .bar1{transform:translateY(9px);}
-    .menu-button .bars.change .bar3{transform:translateY(-9px) rotate(90deg);}
+    .menu-button .bars.change .bar1{transform:translateY(7px);}
+    .menu-button .bars.change .bar3{transform:translateY(-7px) rotate(90deg);}
     /* menu */
     .menu-wrapper{position:absolute; top:-100%; left:-100%;}
     /* botón de búsqueda */
