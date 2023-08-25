@@ -101,9 +101,12 @@ main .container .section{padding:4rem 0;}
 
 /* footer */
 #main-footer{color:var(--color-header);}
-.footer-content{display:grid; gap:2rem; font-weight:300; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));}
+.footer-content{display:grid; gap:2rem; font-weight:300; padding:2rem 0; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));}
 #main-footer nav:not(.contact) ul li{display:flex; align-items:center; height:3.8rem;}
 #main-footer nav:not(.contact) ul li:not(:last-child){border-bottom:1px solid rgba(255,255,255, .1);}
+#main-footer .title-wrapper{position:relative; margin-bottom:2rem; border-bottom:2px solid rgba(255,255,255,.1);}
+#main-footer .title-wrapper .title{display:inline; position:relative; font-size:1.6rem; text-transform:uppercase;}
+#main-footer .title-wrapper .title:before{position:absolute; bottom:-5px; left:0; width:100%; height:2px; background-color:var(--color-header); content:'';}
 #main-footer nav.contact{margin-top:3rem;}
 #main-footer :is(nav.contact, .copyright){grid-column:1/-1; text-align:center;}
 #main-footer .copyright{font-size:1.4rem; opacity:.5;}
