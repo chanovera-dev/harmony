@@ -29,7 +29,7 @@
                         'theme_location' => 'contact',
                     ) 
                 );
-                echo '<p>'.__('Todos los Derechos Reservados', 'renata').date("Y").' © '.bloginfo( 'title' ).'</p>';
+                echo '<p>'.__('Todos los Derechos Reservados ', 'renata').date("Y").' © '; bloginfo( 'title' ); echo '</p>';
             '</div>
         </footer>' .
         wp_footer() .
