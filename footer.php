@@ -1,13 +1,21 @@
 <?php
         echo '<footer id="main-footer" class="container">
             <div class="footer-content section">';
-                wp_nav_menu(
-                    array(
-                        'container' => 'nav', 
-                        'container_class' => 'about-us', 
-                        'theme_location' => 'about-us',
-                    ) 
-                );
+                $menu_location = 'about-us';
+                $menu_object = wp_get_nav_menu_object( $menu_location );
+                echo '<div>';
+                    if ( $menu_object ) {
+                        $menu_name = $menu_object->name;
+                        echo '<h2>' . $menu_name . '</h2>';
+                    } 
+                    wp_nav_menu(
+                        array(
+                            'container' => 'nav', 
+                            'container_class' => 'about-us', 
+                            'theme_location' => 'about-us',
+                        ) 
+                    );
+                echo '</div>';
                 wp_nav_menu(
                     array(
                         'container' => 'nav', 
