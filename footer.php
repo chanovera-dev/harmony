@@ -1,6 +1,6 @@
 <?php
         echo '<footer id="main-footer" class="container">
-            <div class="footer-content section">' .
+            <div class="footer-content section">';
                 wp_nav_menu(
                     array(
                         'container' => 'nav', 
