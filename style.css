@@ -94,7 +94,7 @@ main .container .section{padding:4rem 0;}
             /* botón del menú */
             .menu-button{font-size:1.3rem; font-weight:300; gap:1rem;}
             /* navegación */
-            .nav.left{min-width:132px; gap:1.5rem;}
+            .nav.left{min-width:132px;}
             .nav{gap:3rem;}
             .nav li.responsive{display:inherit;}
             .nav li:not(:first-child):before{position:absolute; content:''; width:1px; height:2.8rem; background-color:rgba(255,255,255, .1); left:-1.5rem;}
