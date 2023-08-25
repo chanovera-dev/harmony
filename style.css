@@ -104,7 +104,7 @@ main .container .section{padding:4rem 0;}
 .footer-content{display:grid; gap:2rem; font-weight:300; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));}
 #main-footer nav:not(.contact) ul li{display:flex; align-items:center; height:3.8rem;}
 #main-footer nav:not(.contact) ul li:not(:last-child){border-bottom:1px solid rgba(255,255,255, .1);}
-#main-footer :is(nav.contact, .copyright){grid-template-columns:1/-1;}
+#main-footer :is(nav.contact, .copyright){grid-column:1/-1;}
 
 @media(min-width:768px){
     /* ajustes específicos */
