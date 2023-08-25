@@ -5,8 +5,8 @@
                     $menu_id = get_nav_menu_locations()[ 'about-us' ];
                     $menu = wp_get_nav_menu_object( $menu_id );
                     $items = wp_get_nav_menu_items( $menu_id );
+                    echo '<div class="title-wrapper"><h2 class="title">' . $menu->name . '</h2></div>';
                     
-                    echo $menu->name; // Displays the menu name.
                     
                 echo '</div>';
                 wp_nav_menu(
