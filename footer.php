@@ -6,8 +6,13 @@
                     $menu = wp_get_nav_menu_object( $menu_id );
                     $items = wp_get_nav_menu_items( $menu_id );
                     echo '<div class="title-wrapper"><h2 class="title">' . $menu->name . '</h2></div>';
-                    
-                    
+                    wp_nav_menu(
+                        array(
+                            'container' => 'nav', 
+                            'container_class' => 'about-us', 
+                            'theme_location' => 'about-us',
+                        ) 
+                    ); 
                 echo '</div>';
                 wp_nav_menu(
                     array(
