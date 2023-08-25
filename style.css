@@ -100,8 +100,8 @@ main .container .section{padding:4rem 0;}
 .header-content .site-brand .custom-logo-link .custom-logo{width:20rem; transition:all .3s ease;}
 
 #main-footer{color:var(--color-header);}
-#main-footer ul li{display:flex; align-items:center; height:3.8rem;}
-#main-footer ul:not(:last-child) li:not(:last-child){border-bottom:1px solid rgba(255,255,255, .1);}
+#main-footer nav:not(:last-child) ul li{display:flex; align-items:center; height:3.8rem;}
+#main-footer nav:not(:last-child) ul li:not(:last-child){border-bottom:1px solid rgba(255,255,255, .1);}
 
 @media(min-width:768px){
     /* ajustes específicos */
