@@ -47,7 +47,10 @@ main .container .section{padding:4rem 0;}
     .nav{display:flex; align-items:center; gap:3rem;}
     .nav li{display:flex; align-items:center;}
     .nav li a{margin-inline:auto; color:var(--color-header);}
+    .primary > .menu{display:grid;}
+    .primary > .menu > li{height:9rem; display:flex; align-items:center;}
     .primary > .menu > li > a{text-transform:uppercase;font-size:3rem;}
+    .primary > .menu > li > .sub-menu{display:none;}
     /* botón del menú */
     .menu-button{position:relative; display:flex; gap:1rem; align-items:center; cursor:pointer; color:var(--color-header); font-size:0; z-index:1;}
     .menu-button .bars{display:inline-block; width:2rem; height:1.6rem; transition:all .3s ease-out;}
@@ -59,8 +62,6 @@ main .container .section{padding:4rem 0;}
     .menu-button .bars.change .bar3{transform:translateY(-7px) rotate(90deg);}
     /* menu */
     .menu-wrapper{position:absolute; top:0; left:0; width:0; height:0; overflow:hidden; padding:0; opacity:0;}
-    .menu-wrapper .menu{display:grid;}
-    .menu-wrapper .menu li{height:9rem; display:flex; align-items:center;}
     .menu-wrapper.active{
         animation-name:animation-menu; animation-direction:normal; animation-duration:2s; animation-timing-function:ease; animation-iteration-count:1;
         top:0; left:0; width:100%; height:100vh; padding:2rem; padding-top:10rem; opacity:1; display:grid; gap:3rem; place-content:center;
