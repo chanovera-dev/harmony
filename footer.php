@@ -1,9 +1,9 @@
 <?php
         echo '<footer id="main-footer" class="container">
             <div class="footer-content section">';
-                $menu_location = 'about-us';
-                $menu_object = wp_get_nav_menu_object( $menu_location );
                 echo '<div>';
+                    $menu_location = 'about-us';
+                    $menu_object = wp_get_nav_menu_object( $menu_location );
                     if ( $menu_object ) {
                         $menu_name = $menu_object->name;
                         echo '<h2>' . $menu_name . '</h2>';
