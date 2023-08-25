@@ -21,7 +21,7 @@ body{position:relative; font-size:1.6rem; font-family:'Montserrat'; color:var(--
 body, :is(header, footer, section, div, article) :is(div, h1, h2, h3, h4, h5, p, span, li, a, figure){margin:0;}
 :is(header, footer) :is(ol, ul){margin:0; padding:0; list-style:none;}
 a{color:var(--color-text-link); border-radius:.3rem; transition:all .3s ease;}
-a:hover{filter:brightness(1.15); text-decoration:underline;}
+a:hover{filter:brightness(1.15);}
 a:focus{outline:none; box-shadow:var(--box-shadow-focus);}
 .container .section{width:min(100% - 4rem, 1080px); margin-inline:auto;}
 img{display:block; height:auto;}
@@ -48,7 +48,7 @@ main .container .section{padding:4rem 0;}
     .nav li{display:flex; align-items:center;}
     .nav li.responsive{display:none;}
     .nav li a{margin-inline:auto; color:var(--color-header); display:flex;}
-    .nav li a.cart-customlocation{display:grid; width:26px; height:26px; place-content:center; color:var(--color-header); border:2px solid #fff;}
+    .nav li a.cart-customlocation{display:grid; width:28px; height:28px; place-content:center; color:var(--color-header); border:2px solid #fff; border-radius:0;}
     .primary > .menu{display:grid;}
     .primary > .menu > li{height:7rem; display:flex; align-items:center;}
     .primary > .menu > li > a{text-transform:uppercase; font-size:2.5rem; font-weight:300;}
