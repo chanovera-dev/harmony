@@ -9,7 +9,7 @@ function myFunction(x) {
         nav.className = "menu-wrapper active inactive";
         setTimeout(function(){
           nav.className = "menu-wrapper";
-        }, 500);
+        }, 1000);
     }
 }
 
