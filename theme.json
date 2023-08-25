@@ -121,7 +121,7 @@
 							]
 						},
 						{
-							"fontFamily": "DM Sans",
+							"fontFamily": "Montserrat",
 							"fontStretch": "normal",
 							"fontStyle": "italic",
 							"fontWeight": "400",
@@ -130,7 +130,7 @@
 							]
 						},
 						{
-							"fontFamily": "DM Sans",
+							"fontFamily": "Montserrat",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "700",
@@ -139,7 +139,7 @@
 							]
 						},
 						{
-							"fontFamily": "DM Sans",
+							"fontFamily": "Montserrat",
 							"fontStretch": "normal",
 							"fontStyle": "italic",
 							"fontWeight": "700",
