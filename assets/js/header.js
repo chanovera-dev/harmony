@@ -6,7 +6,7 @@ function myFunction(x) {
     if (nav.className === "menu-wrapper") {
         nav.className += " active";
     } else {
-        nav.className = "menu-wrapper inactive";
+        nav.className = "menu-wrapper active inactive";
         setTimeout(function(){
           nav.className = "menu-wrapper";
         }, 500);
