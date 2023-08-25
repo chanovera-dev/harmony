@@ -107,6 +107,7 @@ main .container .section{padding:4rem 0;}
 #main-footer nav.contact{margin-top:3rem;}
 #main-footer :is(nav.contact, .copyright){grid-column:1/-1; text-align:center;}
 #main-footer .copyright{font-size:1.4rem; opacity:.5;}
+#main-footer .copyright span{font-weight:400;}
 
 @media(min-width:768px){
     /* ajustes específicos */
