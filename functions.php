@@ -31,7 +31,7 @@ register_nav_menus(
         'primary' => __( 'Primary', 'renata' ),
         'contact' => __( 'Contact', 'renata' ),
         'about-us' => __( 'About Us', 'renata' ),
-        'support' => __( 'Soporte', 'renata' ),
+        'support' => __( 'Support', 'renata' ),
         'politicals' => __( 'Politicals', 'renata' ),
     ) 
 );
