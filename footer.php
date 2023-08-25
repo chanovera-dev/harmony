@@ -4,16 +4,20 @@
                 echo '<div>';
                     $menu_location = 'about-us';
                     $menu_object = wp_get_nav_menu_object( $menu_location );
-                    $menu_id = $menu_object ? $menu_object->term_id : 0;
-                    $menu_name = wp_get_nav_menu_name( $menu_id );
-                    echo '<h2>' . $menu_name . '</h2>';
-                    wp_nav_menu(
-                        array(
-                            'container' => 'nav', 
-                            'container_class' => 'about-us', 
-                            'theme_location' => 'about-us',
-                        ) 
-                    );
+                    if ( $menu_object ) {
+                        $menu_name = $menu_object->name;
+                        echo '<h2>' . $menu_name . '</h2>';
+                        
+                        wp_nav_menu(
+                            array(
+                                'container' => 'nav', 
+                                'container_class' => 'about-us', 
+                                'theme_location' => 'about-us',
+                            ) 
+                        );
+                    } else {
+                        echo 'No se encontró ningún menú en la ubicación ' . $menu_location;
+                    }
                 echo '</div>';
                 wp_nav_menu(
                     array(
