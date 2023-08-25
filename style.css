@@ -33,7 +33,7 @@ main .container .section{padding:4rem 0;}
 
 /* cabecera */
 .main-header{position:fixed; top:0; width:100%; z-index:5; backface-visibility:hidden; transform:translate3d(0, 0, 0); transition:all .25s ease-in-out;}
-.main-header .header-content{display:flex; align-items:center; justify-content:space-between; gap:3rem; /* height:7rem; */ height:7rem;}
+.main-header .header-content{display:flex; align-items:center; justify-content:space-between; gap:3rem; height:7rem;}
     /* navegación */
     .nav{display:flex; align-items:center; gap:3rem;}
     .nav li{display:flex; align-items:center;}
