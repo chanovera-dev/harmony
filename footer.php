@@ -2,22 +2,12 @@
         echo '<footer id="main-footer" class="container">
             <div class="footer-content section">';
                 echo '<div>';
-                    $theme_locations = get_nav_menu_locations();
-                    $menu_object = get_term( $theme_locations[$theme_location], 'about-us' );
-                    if ( $menu_object ) {
-                        $menu_name = $menu_object->name;
-                        echo '<h2>' . $menu_name . '</h2>';
-                        
-                        wp_nav_menu(
-                            array(
-                                'container' => 'nav', 
-                                'container_class' => 'about-us', 
-                                'theme_location' => 'about-us',
-                            ) 
-                        );
-                    } else {
-                        echo 'No se encontró ningún menú en la ubicación ' . $menu_location;
-                    }
+                    $menu_id = get_nav_menu_locations()[ 'about-us' ];
+                    $menu = wp_get_nav_menu_object( $menu_id );
+                    $items = wp_get_nav_menu_items( $menu_id );
+                    
+                    echo $menu->name; // Displays the menu name.
+                    
                 echo '</div>';
                 wp_nav_menu(
                     array(
