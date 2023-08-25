@@ -159,7 +159,7 @@
 						{
 							"fontFamily": "Montserrat",
 							"fontStretch": "normal",
-							"fontStyle": "semibold italic",
+							"fontStyle": "italic",
 							"fontWeight": "500",
 							"src": [
 								"file:./assets/fonts/montserrat/Montserrat-SemiBoldItalic.woff2"
