@@ -6,8 +6,9 @@ function theme_colors() {
         :root{
             /* generales */
             --background-color-body:#663c6d;
-            -background-color-main-content:#000;
+            --background-color-main-content:#fff;
             --color-header:#fff;
+            --color-text:#000;
         }
     </style>
     <?php
