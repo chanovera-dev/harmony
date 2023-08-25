@@ -114,6 +114,24 @@
 						{
 							"fontFamily": "Montserrat",
 							"fontStretch": "normal",
+							"fontStyle": "light",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/montserrat/Montserrat-Light.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/montserrat/Montserrat-LightItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
