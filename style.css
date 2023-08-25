@@ -17,7 +17,7 @@ Tags:
 /* ajustes generales */
 html{font-size:62.5%; scroll-behavior:smooth;}
 body, header, main, footer, section, article, div, input, textarea, ul, ol, li, figure, figcaption, a{box-sizing:border-box;}
-body{position:relative; font-size:1.6rem; font-family:'Montserrat'; color:var(--color-text); background-color:var(--background-color-body);}
+body{position:relative; font-size:1.6rem; font-family:'Montserrat'; font-weight:300; color:var(--color-text); background-color:var(--background-color-body);}
 body, :is(header, footer, section, div, article) :is(div, h1, h2, h3, h4, h5, p, span, li, a, figure){margin:0;}
 :is(header, footer) :is(ol, ul){margin:0; padding:0; list-style:none;}
 a{color:var(--color-text-link); border-radius:.3rem; transition:all .3s ease;}
@@ -53,7 +53,7 @@ main .container .section{padding:4rem 0;}
 .nav li a.cart-customlocation:hover{background-color:var(--color-header); color:var(--color-text);}
 .primary > .menu{display:grid;}
 .primary > .menu > li{height:7rem; display:flex; align-items:center;}
-.primary > .menu > li > a{text-transform:uppercase; font-size:2.5rem; font-weight:300;}
+.primary > .menu > li > a{text-transform:uppercase; font-size:2.5rem;}
 .primary > .menu > li > .sub-menu{display:none;}
 .contact .menu{display:flex; align-items:center; justify-content:center; gap:3rem;}
 .contact .menu li a{font-size:0; display:inline-flex; padding:.5rem; border:1px solid #fff; border-radius:50%;}
@@ -101,7 +101,7 @@ main .container .section{padding:4rem 0;}
 
 /* footer */
 #main-footer{color:var(--color-header);}
-.footer-content{display:grid; gap:2rem; font-weight:300; padding:2rem 0; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));}
+.footer-content{display:grid; gap:2rem; padding:2rem 0; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));}
 #main-footer nav:not(.contact) ul li{display:flex; align-items:center; height:3.8rem;}
 #main-footer nav:not(.contact) ul li:not(:last-child){border-bottom:1px solid rgba(255,255,255, .1);}
 #main-footer .title-wrapper{position:relative; margin-bottom:2rem; border-bottom:2px solid rgba(255,255,255,.1);}
@@ -119,7 +119,7 @@ main .container .section{padding:4rem 0;}
     /* cabecera */
     .main-header .header-content{height:10rem;}
         /* botón del menú */
-        .menu-button{font-size:1.3rem; font-weight:300; gap:1rem;}
+        .menu-button{font-size:1.3rem; gap:1rem;}
         /* navegación */
         .nav.left{min-width:132px;}
         .nav{gap:3rem;}
