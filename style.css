@@ -101,7 +101,7 @@ main .container .section{padding:4rem 0;}
 
 #main-footer{color:var(--color-header);}
 #main-footer ul li{display:flex; align-items:center; height:3.8rem;}
-#main-footer ul li:not(:last-child){border-bottom:1px solid rgba(255,255,255, .1);}
+#main-footer ul:not(:last-child) li:not(:last-child){border-bottom:1px solid rgba(255,255,255, .1);}
 
 @media(min-width:768px){
     /* ajustes específicos */
