@@ -32,7 +32,7 @@
                                     </svg>
                                 </a>
                             </li>';
-                            echo '<li><a class="cart-customlocation" href="'; echo wc_get_cart_url(); echo '" title="'; _e( 'View your shopping cart' ); echo '">'; echo sprintf ( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); echo '–'; echo WC()->cart->get_cart_total(); echo '</a>
+                            echo '<li><a class="cart-customlocation" href="'; echo wc_get_cart_url(); echo '" title="'; _e( 'View your shopping cart' ); echo '">'; echo sprintf ( _n( '%d', '%d', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); echo '</a>
                             </li>';
                         echo '</ul>';
                     } else {
