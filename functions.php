@@ -22,6 +22,9 @@ add_action( 'get_footer', 'load_parts_footer' );
 // Anexos al customizador de Wordpress | colores
 require_once(get_template_directory() . '/functions/colors.php');
 
+// Anexos al customizador de Wordpress | iconos
+require_once(get_template_directory() . '/functions/icons.php');
+
 // Registro de menús
 register_nav_menus( 
     array(
