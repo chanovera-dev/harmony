@@ -14,7 +14,7 @@
 
     </section>
 
-    <section class="container main-content teams">
+    <section class="container main-content team">
 
         <div class="section content-section">
 
