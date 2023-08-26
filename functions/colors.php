@@ -9,6 +9,7 @@ function theme_colors() {
             --background-color-main-content:#fff;
             --color-header:#fff;
             --color-text:#000;
+            --border-color-list:#ddd;
         }
     </style>
     <?php

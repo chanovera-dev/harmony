@@ -1,5 +1,6 @@
 /* dirección */
 .address-widget{margin:0; padding:0; list-style:none; font-style:normal;}
 .address-widget li{display:flex; align-items:center; height:3rem;}
-.address-widget li a{display:inline-flex;}
+.address-widget li:not(:last-child){border-bottom:1px solid var(--border-color-list);}
+.address-widget li a{display:inline-flex; align-items:center;}
 .address-widget li svg{padding-right:.7rem;}
