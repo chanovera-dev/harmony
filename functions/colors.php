@@ -9,7 +9,14 @@ function theme_colors() {
             --background-color-main-content:#fff;
             --color-header:#fff;
             --color-text:#000;
+
+            /* listas */
             --border-color-list:#ddd;
+
+            /* formularios */
+            --border-color-input:#69727D;
+            --background-color-input:#fff;
+            --color-text-input:#7a7a7a;
         }
     </style>
     <?php
