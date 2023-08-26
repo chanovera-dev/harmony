@@ -23,5 +23,21 @@ function theme_customizer($wp_customize) {
             'label' => 'Persona 1',
             'section' => 'team__data',
         )));
+        // nombre 1
+        $wp_customize->add_setting('testimony-name1', array(
+            'default' => __('Usuario 1'),
+        ));
+        $wp_customize->add_control('testimony-name1', array(
+            'label' => 'Nombre 1',
+            'section' => 'team__data',
+        ));
+        // nombre 1
+        $wp_customize->add_setting('titulo1', array(
+            'default' => __('Título 1'),
+        ));
+        $wp_customize->add_control('titulo1', array(
+            'label' => 'Título 1',
+            'section' => 'team__data',
+        ));
 }
 add_action('customize_register', 'theme_customizer');
