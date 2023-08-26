@@ -9,3 +9,6 @@
 .team-member .team-name{font-size:2.2rem; font-weight:700; margin-bottom:0;}
 .team-member .team-title{opacity:.25; font-size:1.8rem;}
 .team-member p{line-height:1.6;}
+
+/* reviews */
+.public-xs-review-box, .view-review-list{padding:0; -webkit-box-shadow:none; box-shadow:none;}
