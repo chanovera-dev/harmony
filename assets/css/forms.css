@@ -9,6 +9,7 @@ textarea,
 .page-template-conocenos .public-xs-review-box .xs-review textarea{border-radius:0;}
 textarea,
 .page-template-conocenos .public-xs-review-box .xs-review textarea{padding:1rem; height:auto;}
+.page-template-conocenos #xs_review_form_public_data .xs-review-box .xs-review{width:100%;}
 input[type=text]::placeholder,
 input[type=email]::placeholder,
 input[type=tel]::placeholder,
