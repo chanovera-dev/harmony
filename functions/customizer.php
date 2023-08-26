@@ -31,7 +31,7 @@ function theme_customizer($wp_customize) {
             'label' => 'Nombre 1',
             'section' => 'team__data',
         ));
-        // nombre 1
+        // título 1
         $wp_customize->add_setting('titulo1', array(
             'default' => __('Título 1'),
         ));
