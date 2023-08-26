@@ -39,5 +39,13 @@ function theme_customizer($wp_customize) {
             'label' => 'Título 1',
             'section' => 'team__data',
         ));
+        // bio 1
+        $wp_customize->add_setting('bio1', array(
+            'default' => __('Bio 1'),
+        ));
+        $wp_customize->add_control('bio1', array(
+            'label' => 'Bio 1',
+            'section' => 'team__data',
+        ));
 }
 add_action('customize_register', 'theme_customizer');
