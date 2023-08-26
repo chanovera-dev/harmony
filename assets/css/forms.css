@@ -14,6 +14,9 @@ input[type=tel]:focus,
 textarea:focus{outline:none; border:1px solid var(--border-color-input); /*box-shadow:var(--box-shadow-input-focus);*/}
 
 .wpcf7-form{display:grid; gap:2rem;}
+.wpcf7-form p label{font-weight:400;}
+
+.wpcf7-submit{padding:1.5rem 3rem; margin-inline:auto; background-color:var(--background-color-body); color:var(--color-header); text-transform:uppercase;}
 
 @media(min-width:1024px){
     .wpcf7-form{grid-template-columns:repeat(4,1fr);}
