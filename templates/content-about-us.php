@@ -20,7 +20,7 @@
 
             <div class="content">
 
-                <div class="title-wrapper"><h2 class="title">Conoce a nuestro equipo</h2></div>
+                <div class="title-wrapper"><h2 class="title"><?php echo get_theme_mod('team_title', 'Equipo de trabajo'); ?></h2></div>
 
             </div>
 
