@@ -14,7 +14,7 @@
 #xs-review-box .write-reivew-headding,
 .public-xs-review-box, .view-review-list{padding:0; -webkit-box-shadow:none; box-shadow:none; font-weight:500;}
 #xs-review-box .total-reivew-headding{padding:0; font-weight:500;}
-/* .content :is(ul, ol){padding-left:0;} */
+.values .content :is(ul, ol){padding-left:0;}
 #xs_review_form_public_data .xs-review-box .xs-review{padding:0;}
 .public-xs-review-box .xs-save-button button{background-color:var(--background-color-body); border-radius:.4rem; font-size:1.6rem; -webkit-box-shadow:none; box-shadow:none; transition:all .3s ease;}
 .public-xs-review-box .xs-save-button button:hover{-webkit-box-shadow:none; box-shadow:none; filter:brightness(1.15);}
