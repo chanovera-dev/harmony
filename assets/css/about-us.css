@@ -11,5 +11,6 @@
 .team-member p{line-height:1.6;}
 
 /* reviews */
+#xs-review-box .write-reivew-headding,
 .public-xs-review-box, .view-review-list{padding:0; -webkit-box-shadow:none; box-shadow:none;}
 #xs-review-box .total-reivew-headding{padding:0;}
