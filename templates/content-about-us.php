@@ -1,8 +1,8 @@
 <main id="main">
 
-    <section class="container main-content">
+    <section class="container main-content mission values">
 
-        <div class="section content-section mission values">
+        <div class="section content-section">
 
             <div class="content">
 
@@ -12,7 +12,11 @@
 
         </div>
 
-        <div class="section content-section team">
+    </section>
+
+    <section class="container main-content teams">
+
+        <div class="section content-section">
 
             <div class="content">
 
@@ -22,11 +26,15 @@
 
         </div>
 
-        <div class="section content-section reviews">
+    </section>
+
+    <section class="container main-content reviews">
+
+        <div class="section content-section">
 
             <div class="content">
 
-                
+
 
             </div>
 
