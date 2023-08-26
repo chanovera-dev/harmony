@@ -2,6 +2,6 @@
 .title-section .title{color:var(--color-header); text-align:center;}
 
 /* títulos de secciones */
-.content-section .title-wrapper{position:relative; margin-bottom:2rem; border-bottom:2px solid rgba(0,0,0,.1);}
+.content-section .title-wrapper{position:relative; border-bottom:2px solid rgba(0,0,0,.1);}
 .content-section .title-wrapper .title{display:inline; position:relative; font-size:2.4rem; font-weight:500; text-transform:uppercase;}
 .content-section .title-wrapper .title:before{position:absolute; bottom:-5px; left:0; width:100%; height:2px; background-color:var(--color-text); content:'';}
