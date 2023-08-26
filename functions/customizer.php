@@ -46,6 +46,7 @@ function theme_customizer($wp_customize) {
         $wp_customize->add_control('bio1', array(
             'label' => 'Bio 1',
             'section' => 'team__data',
+            'type' => 'textarea',
         ));
 }
 add_action('customize_register', 'theme_customizer');
