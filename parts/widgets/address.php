@@ -11,5 +11,5 @@
             <p>Lunes - Viernes 10 a.m. - 6 p.m.</p> 
         </li>
     </ul>
-    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3735.4257218708312!2d-100.419309!3d20.570665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d3454725297e51%3A0x20dfa31c95c9cb80!2sBlvd.%20Dolores%20del%20R%C3%ADo%20709%2C%20La%20Joya%2C%2076180%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2sus!4v1693058640586!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </address>
