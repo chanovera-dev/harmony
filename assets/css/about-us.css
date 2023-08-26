@@ -16,3 +16,4 @@
 #xs-review-box .total-reivew-headding{padding:0; font-weight:500;}
 .content :is(ul, ol){padding-left:0;}
 #xs_review_form_public_data .xs-review-box .xs-review{padding:0;}
+.public-xs-review-box .xs-save-button button{background-color:var(--background-color-body);}
