@@ -68,7 +68,7 @@
 
             <div class="content">
 
-                <?php do_shortcode( '[wp-reviews]' ); ?>
+                <?php if ( is_active_sidebar('reviews') ) { dynamic_sidebar('reviews');} ?>
 
             </div>
 

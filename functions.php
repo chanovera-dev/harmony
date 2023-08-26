@@ -51,6 +51,24 @@ function theme_support(){
 }
 add_action( 'after_setup_theme', 'theme_support' );
 
+// Registra los sidebars
+function widgets_areas(){
+    
+    register_sidebar(
+        array(
+            'name' => __('Reviews','renata'),
+            'id' => 'reviews',
+            'description' => __('Reviews area','renata'),
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+    
+}
+add_action( 'widgets_init', 'widgets_areas' );
+
 // Estilos particulares
 require_once(get_template_directory() . '/functions/components.php');
 
