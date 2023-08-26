@@ -6,6 +6,8 @@
 
             <div class="content">
 
+            <div class="title-wrapper"><h2 class="title"><?php echo get_theme_mod('about_us_title', 'Conócenos'); ?></h2></div>
+
                 <?php the_content(); ?>
 
             </div>
