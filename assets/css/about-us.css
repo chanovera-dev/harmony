@@ -4,5 +4,7 @@
 
 .team-member{text-align:center;}
 .team-member img{margin-inline:auto;}
-.team-member > *:not(:last-child){margin-bottom:2rem;}
+.team-member > *:not(:last-child){margin-bottom:1.6rem;}
+.team-member .team-name{font-size:2rem; font-weight:700;}
+.team-member .team-title{opacity:.5; font-size:1.8rem;}
 .team-member p{line-height:1.6;}
