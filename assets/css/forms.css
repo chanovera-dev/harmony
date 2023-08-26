@@ -23,6 +23,8 @@ textarea:focus{outline:none; border:1px solid var(--border-color-input); /*box-s
 .wpcf7-form p label{position:relative; font-weight:400;}
 .wpcf7-form p:not(:nth-child(11)) label:before{position:relative;content:'*'; color:red;}
 
+.page-template-conocenos .public-xs-review-box{display:grid; gap:2rem;}
+
 /* botón de envío */
 .wpcf7-submit{-moz-appearance:none; -webkit-appearance:none; display:inline-flex; align-items:center; padding:1.5rem 3rem; margin-inline:auto; background-color:var(--background-color-body); border:1px solid var(--background-color-body); border-radius:.4rem; color:var(--color-header); text-transform:uppercase; transition:all .3s ease;}
 .wpcf7-submit:hover{filter:brightness(1.15);}
