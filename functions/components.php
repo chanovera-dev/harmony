@@ -22,6 +22,7 @@ add_action( 'wp_enqueue_scripts', 'contact_styles' );
 // Estilos para el template de la página Conocenos
 function conocenos_styles() {
     if ( is_page_template('conocenos.php') ) {
+        wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
         wp_enqueue_style( 'about-us-styles', get_template_directory_uri() . '/assets/css/about-us.css' );
         wp_enqueue_style( 'forms-styles', get_template_directory_uri() . '/assets/css/forms.css' );
     }
