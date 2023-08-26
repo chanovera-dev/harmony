@@ -1,3 +1,8 @@
 .team{background-color:#f6f6f6;}
 .team .content .title-wrapper{grid-column:1/-1;}
 .team .content{display:grid; gap:3rem; grid-template-columns:repeat(auto-fill, minmax(322px, 1fr));}
+
+.team-member{text-align:center;}
+.team-member img{margin-inline:auto;}
+.team-member > *:not(:last-child){margin-bottom:2rem;}
+.team-member p{line-height:1.6;}
