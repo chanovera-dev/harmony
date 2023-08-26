@@ -12,3 +12,4 @@
 
 /* reviews */
 .public-xs-review-box, .view-review-list{padding:0; -webkit-box-shadow:none; box-shadow:none;}
+#xs-review-box .total-reivew-headding{padding:0;}
