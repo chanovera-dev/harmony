@@ -68,7 +68,7 @@
 
             <div class="content">
 
-
+                <?php do_shortcode('[wp-reviews]'); ?>
 
             </div>
 
