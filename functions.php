@@ -56,9 +56,21 @@ function widgets_areas(){
     
     register_sidebar(
         array(
-            'name' => __('Reviews','renata'),
+            'name' => __('Reviews','harmony'),
             'id' => 'reviews',
-            'description' => __('Reviews area','renata'),
+            'description' => __('Reviews area','harmony'),
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name' => __('Blog Sidebar','harmony'),
+            'id' => 'blog-sidebar',
+            'description' => __('Sidebar Widget Area','harmony'),
             'before_title' => '<h3 class="widget-title">',
             'after_title' => '</h3>',
             'before_widget' => '',
