@@ -1,10 +1,10 @@
 <section id="hero" class="container main-content">
     <div class="section hero-section">
-        <div class="presentation">
+        <div class="presentation-title">
             <h1>¡Vive en bienestar y armonía!</h1>
             <h2>Reconecta cuerpo, mente y espíritu</h2>
         </div>
-        <div>
+        <div class="presentation-content">
             <div>
                 <a href="http://">VIDEO DE DEMOSTRACIÓN</a>
                 <h2>Nuestra historia</h2>
