@@ -1,7 +1,9 @@
 <section id="hero" class="container main-content">
     <div class="section">
-        <h1>¡Vive en bienestar y armonía!</h1>
-        <h2>Reconect mente y espíritu</h2>
+        <div>
+            <h1>¡Vive en bienestar y armonía!</h1>
+            <h2>Reconect mente y espíritu</h2>
+        </div>
         <div>
             <div>
                 <a href="http://">VIDEO DE DEMOSTRACIÓN</a>
