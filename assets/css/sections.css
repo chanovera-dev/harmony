@@ -4,12 +4,12 @@
 /* títulos de secciones */
 .content-section .title-wrapper{position:relative; border-bottom:2px solid rgba(0,0,0,.1);}
 .content-section .title-wrapper :is(.title,.widget-title){display:inline; position:relative; font-size:2.4rem; font-weight:500; text-transform:uppercase; margin-bottom:2rem;}
-.content-section .title-wrapper :is(.title,.widget-title):before{position:absolute; bottom:-5px; left:0; width:100%; height:2px; background-color:var(--color-text); content:'';}
+.content-section .title-wrapper :is(.title,.widget-title):before{position:absolute; bottom:-5px; left:0; width:100%; height:2px; background-color:var(--color-text); content :'';}
 
 @media(min-width:1024px){
     /* contenido */
-    :is(.page, .single-post, .home, .archive, .search, .blog)  :is(.content-section, .comments-section){display:grid; grid-template-columns:1fr 330px; gap:0 7.5rem;}
+    :is(.single-post, .home, .archive, .search, .blog)  :is(.content-section, .comments-section){display:grid; grid-template-columns:1fr 330px; gap:0 7.5rem;}
 
     /* sidebar */
-    :is(.page, .single-post, .home, .archive, .search, .blog) .content-section aside{display:grid; align-content:flex-start; gap:5rem;}  
+    :is(.single-post, .home, .archive, .search, .blog) .content-section aside{display:grid; align-content:flex-start; gap:5rem;}  
 }
