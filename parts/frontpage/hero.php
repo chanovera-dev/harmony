@@ -14,7 +14,7 @@
                 </a>
             </div>
             <figure>
-                <img src="" alt="">
+                <img src="http://localhost/harmony/wp-content/uploads/2023/08/armonia.jpeg" alt="armonía" width="600" height="400" loading="lazy">
                 <figcaption><a href="http://">Saber más</a></figcaption>
             </figure>
             <div>
