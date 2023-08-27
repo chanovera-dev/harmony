@@ -17,7 +17,7 @@
                 <img src="http://localhost/harmony/wp-content/uploads/2023/08/armonia.jpeg" alt="armonía" width="600" height="400" loading="lazy">
                 <figcaption><a href="http://">Saber más</a></figcaption>
             </figure>
-            <div>
+            <div class="numbers">
                 <div>
                     <h2>12 <span>+</span></h2>
                     <p>Años de experiencia</p>
