@@ -13,6 +13,8 @@ aside ul li:not(:last-child){border-bottom:1px solid var(--border-color-list);}
 
 aside ul li{display:flex; align-items:center; height:3rem;}
 
+.archive-list-widget{margin:0; padding:0;}
+
 @media(min-width:400px){
     /* dirección */
     .address-widget li{font-size:1.6rem;}
