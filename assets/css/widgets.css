@@ -2,6 +2,9 @@
 address{display:grid; gap:4rem; align-content:baseline;}
 address iframe{width:100%;}
 
+/* fecha de publicación */
+.publicate-date_widget{font-size:1.7rem; display:inline-flex; align-items:center; gap:.7rem; opacity:.5;}
+
 /* dirección */
 .address-widget{margin:0; padding:0; list-style:none; font-style:normal;}
 .address-widget li,
