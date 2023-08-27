@@ -1,0 +1,3 @@
+.hero-section{display:grid;}
+.hero-section .presentation :is(h1,h2){font-size:4rem; text-align:center;}
+.hero-section .presentation h2{font-weight:400;}
