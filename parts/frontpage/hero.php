@@ -1,4 +1,4 @@
-<section id="hero" class="container">
+<section id="hero" class="container main-content">
     <div class="section">
         <h1>¡Vive en bienestar y armonía!</h1>
         <h2>Reconect mente y espíritu</h2>
