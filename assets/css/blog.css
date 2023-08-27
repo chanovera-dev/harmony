@@ -26,7 +26,7 @@
 }
 
 @media(min-width:768px){
-    .all .articles .article .thumbnail{width:53%; top:50%; transform:translateY(-50%); aspect-ratio:4/3; max-height:186px;}
+    .all .articles .article .thumbnail{width:53%; top:50%; transform:translateY(-50%); aspect-ratio:4/3; max-height:300px;}
     .all .articles .article:nth-child(odd) .thumbnail{right:0;}
     .all .articles .article:nth-child(even) .thumbnail{left:0;}
     .all .articles .article .thumbnail:hover{opacity:1;}
