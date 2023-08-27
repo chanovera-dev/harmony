@@ -7,9 +7,6 @@
         <?php endif; ?>
 
         <div class="article__content">
-            <?php
-                include(TEMPLATEPATH . '/parts/widgets/author.php');
-            ?>
                 <?php echo the_category(); ?>
                 <a class="permalink" href="<?php the_permalink() ?>" target="_blank">
                     <?php the_title( '<h3 class="article__title">', '</h3>' ); ?>
