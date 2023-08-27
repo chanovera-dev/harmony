@@ -9,6 +9,7 @@ function theme_icons() {
             .contact .menu li a[href*="youtube"]:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/youtube-white.svg');}
 
             .categories ul li a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/category.svg');}
+            .archive-list-widget li a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/archive.svg');}
         </style>
     <?php
 }
