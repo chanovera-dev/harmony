@@ -9,6 +9,8 @@ address iframe{width:100%;}
 .address-widget li a{display:inline-flex; align-items:center;}
 .address-widget li svg{padding-right:.7rem;}
 
+aside ul{margin:0; padding:0;}
+
 @media(min-width:400px){
     /* dirección */
     .address-widget li{font-size:1.6rem;}
