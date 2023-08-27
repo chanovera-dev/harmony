@@ -11,7 +11,7 @@ aside ul li:not(:last-child){border-bottom:1px solid var(--border-color-list);}
 .address-widget li a{display:inline-flex; align-items:center;}
 .address-widget li svg{padding-right:.7rem;}
 
-aside ul li{display:flex; align-items:center; height:3rem;}
+aside ul li{display:flex; align-items:center; height:3rem; font-size:1.6rem;}
 
 aside ul{margin:0; padding:0; list-style:none;}
 
