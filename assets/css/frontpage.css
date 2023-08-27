@@ -2,3 +2,7 @@
 .hero-section .presentation-title :is(h1,h2){font-size:4rem; text-align:center;}
 .hero-section .presentation-title h1{font-weight:500;}
 .hero-section .presentation-content{display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:3rem;}
+
+@media(min-width:768px){
+    .hero-section .presentation-content figure{grid-column:span 2;}
+}
