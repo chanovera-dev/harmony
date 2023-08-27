@@ -2,7 +2,7 @@
     <div class="section">
         <div>
             <h1>¡Vive en bienestar y armonía!</h1>
-            <h2>Reconect mente y espíritu</h2>
+            <h2>Reconecta cuerpo, mente y espíritu</h2>
         </div>
         <div>
             <div>
