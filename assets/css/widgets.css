@@ -13,7 +13,7 @@ aside ul li:not(:last-child){border-bottom:1px solid var(--border-color-list);}
 
 aside ul li{display:flex; align-items:center; height:3rem;}
 
-.archive-list-widget{margin:0; padding:0;}
+aside ul{margin:0; padding:0; list-style:none;}
 
 @media(min-width:400px){
     /* dirección */
