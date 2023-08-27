@@ -36,7 +36,7 @@
     .all .articles .article:nth-child(even) .article__content .author_widget .author-ocupation{grid-column:1/2;}
     .all .articles .article:nth-child(even) .tags{text-align:right;}
     .all .articles .article .article__content{width:53%;}
-    .all .articles .article .article__content > p{font-size:1.4rem; line-height:1.5; padding:2rem; background-color:var(--background-color-main); color:var(--color-header); border-radius:.8rem; box-shadow:0 10px 30px -15px rgba(2,12,27,0.7);}
+    .all .articles .article .article__content > p{font-size:1.4rem; line-height:1.5; padding:2rem; background-color:var(--background-color-body); color:var(--color-header); border-radius:.8rem; box-shadow:0 10px 30px -15px rgba(2,12,27,0.7);}
     .all .articles .article:nth-child(odd) .tags > *:not(:last-child){margin-right:2rem;}
     .all .articles .article:nth-child(even) .tags > *:not(:first-child){margin-left:2rem;}
     .all .articles .article .tags a:before{position:relative; padding:7px; display:inline-block;}
