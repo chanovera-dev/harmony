@@ -4,7 +4,7 @@ $post_count = wp_count_posts();
 
 if ( $post_count->publish > 0 ) :
 
-echo '<div class="categories"><div class="title-wrapper"><h3 class="widget-title">' . __('Categorías', 'renata') . '</h3></div>';
+echo '<div class="categories"><div class="title-wrapper"><h3 class="widget-title">' . __('Categorías', 'harmony') . '</h3></div>';
 
     echo '<ul>';
 
