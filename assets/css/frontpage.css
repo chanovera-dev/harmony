@@ -3,6 +3,9 @@
 .hero-section .presentation-title h1{font-weight:500;}
 .hero-section .presentation-content{display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:3rem;}
 .hero-section .presentation-content img{width:100%; border-radius:.8rem;}
+.hero-section .presentation-content .numbers{display:grid; gap:3rem;}
+.hero-section .presentation-content .numbers h2{font-weight:500;}
+.hero-section .presentation-content .numbers h2 span{color:var(--background-color-body);}
 @media(min-width:1024px){
     .hero-section .presentation-content figure{grid-column:2/span 2;}
 }
