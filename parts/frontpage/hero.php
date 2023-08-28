@@ -8,7 +8,12 @@
             <div class="story">
                 <div class="story-video">
                     <img src="http://localhost/harmony/wp-content/uploads/2023/08/armonia.jpeg" alt="armonía" width="60" height="60" loading="lazy">
-                    <a href="http://">VIDEO DE DEMOSTRACIÓN</a>
+                    <a href="http://">
+                        VIDEO DE DEMOSTRACIÓN
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                        </svg>
+                    </a>
                 </div>
                 <div class="story-text">
                     <div class="title-wrapper"><h2 class="title">Nuestra historia</h2></div>
