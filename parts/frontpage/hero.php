@@ -26,6 +26,7 @@
                 </div>
                 <div class="story-text">
                     <div class="title-wrapper"><h2 class="title">Nuestra historia</h2></div>
+                    <p>Agencia especializada en ayudar a tener una vida más sana. </p>
                     <div class="story-text-button">
                         <a href="http://">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
@@ -33,7 +34,7 @@
                             </svg>    
                         </a>
                     </div>
-                    <p>Agencia especializada en ayudar a tener una vida más sana. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     
                 </div>
             </div>
