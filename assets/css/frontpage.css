@@ -82,13 +82,8 @@
 }
 
 /* suscribe */
-.suscribe-section .wpcf7-form{
-    display: grid;
-    width: min(100%, 500px);
-    margin-inline: auto;
-    grid-template-columns: 1fr auto;
-    align-items: end;
-}
+.suscribe-section .wpcf7-form{display:grid; width:min(100%, 500px); margin-inline:auto; grid-template-columns:1fr auto; align-items:end; gap:2rem;}
+.suscribe-section .wpcf7-submit{height:4rem;}
 
 @media(min-width:1024px){
     .hero-section .presentation-content figure{grid-column:2/span 2;}
