@@ -6,7 +6,10 @@
         </div>
         <div class="presentation-content">
             <div class="story">
-                <a href="http://">VIDEO DE DEMOSTRACIÓN</a>
+                <div>
+                    <img src="http://localhost/harmony/wp-content/uploads/2023/08/armonia.jpeg" alt="armonía" width="60" height="60" loading="lazy">
+                    <a href="http://">VIDEO DE DEMOSTRACIÓN</a>
+                </div>
                 <div class="story-text">
                     <div class="title-wrapper"><h2 class="title">Nuestra historia</h2></div>
                     <p>Agencia especializada en ayudar a tener una vida más sana. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
