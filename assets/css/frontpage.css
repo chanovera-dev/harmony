@@ -82,7 +82,13 @@
 }
 
 /* suscribe */
-.suscribe-section .wpcf7-form{align-items:end; display:flex; width:min(100%, 500px); margin-inline:auto;}
+.suscribe-section .wpcf7-form{
+    display: grid;
+    width: min(100%, 500px);
+    margin-inline: auto;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+}
 
 @media(min-width:1024px){
     .hero-section .presentation-content figure{grid-column:2/span 2;}
