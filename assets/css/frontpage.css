@@ -33,7 +33,7 @@
 #sitemap{background-color:#f6f6f6;}
 :root {
     --sitemap-section-item-height: 2.5rem;
-    --sitemap-section-item-margin-left: 2.5rem;
+    --sitemap-section-item-margin-left: 3.2rem;
     --sitemap-section-item-padding-top: 1.5rem;
 }
 
@@ -80,6 +80,8 @@
 .sitemap-section li:last-child::before {
     height: calc(var(--sitemap-section-item-padding-top) + var(--sitemap-section-item-height) / 2);
 }
+
+.sitemap-section li a{display:inline-flex; align-items:center; gap:.7rem;}
 
 /* suscribe */
 #suscribe{background-color:#937698;}
