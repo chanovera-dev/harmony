@@ -13,7 +13,7 @@
                             <path d="M 0,50 a 50,50 0 1,1 0,1 z" id="circle" />
                             <text>
                                 <textPath xlink:href="#circle">
-                                VIDEO DE DEMOSTRACIÓN
+                                V I D E O   DE   D E M O S T R A C I Ó N
                                 </textPath>
                             </text>
                         </svg>
