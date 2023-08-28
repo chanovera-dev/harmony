@@ -9,8 +9,14 @@
                 <div class="story-video">
                     <img src="http://localhost/harmony/wp-content/uploads/2023/08/armonia.jpeg" alt="armonía" width="60" height="60" loading="lazy">
                     <a class="center" href="http://">
-                        <p id="circle">VIDEO DE DEMOSTRACIÓN</p>
-                        
+                        <svg viewBox="0 0 100 100">
+                            <path d="M 0,50 a 50,50 0 1,1 0,1 z" id="circle" />
+                            <text>
+                                <textPath xlink:href="#circle">
+                                VIDEO DE DEMOSTRACIÓN
+                                </textPath>
+                            </text>
+                        </svg>
                     </a>
                 </div>
                 <div class="story-text">
