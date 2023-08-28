@@ -2,9 +2,9 @@
 .hero-section .presentation-title :is(h1,h2){font-size:4rem; text-align:center;}
 .hero-section .presentation-title h1{font-weight:500;}
 .hero-section .presentation-content{display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:3rem;}
-.hero-section .presentation-content .story-video{position:relative; margin-bottom:2rem;}
+.hero-section .presentation-content .story-video{position:relative; margin-bottom:2rem; display:flex;}
 .hero-section .presentation-content .story-video img{width:6rem; height:6rem; border-radius:50%; object-fit:cover;}
-.hero-section .presentation-content .story-video .button-wrapper{position:relative; top:0; left:4rem;}
+.hero-section .presentation-content .story-video .button-wrapper{position:relative; top:0; left:-2rem;}
 .hero-section .presentation-content .story-video .center{display:grid; width:6rem; height:6rem; font-size:1.6rem; padding:1rem; border:1px solid var(--border-color-input); border-radius:50%; letter-spacing:4px; background-color:rgba(255,255,255,.5);}
 .hero-section .presentation-content .story-video .center svg{overflow:visible; animation:circular-text-rotate 5s linear paused infinite;}
 .hero-section .presentation-content .story-video .center svg:hover{animation-play-state:running;}
