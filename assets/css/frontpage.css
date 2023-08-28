@@ -1,7 +1,7 @@
 .hero-section{display:grid; gap:3rem;}
 .hero-section .presentation-title :is(h1,h2){font-size:4rem; text-align:center;}
 .hero-section .presentation-title h1{font-weight:500;}
-.hero-section .presentation-content{display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:3rem; align-content:end;}
+.hero-section .presentation-content{display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:3rem; align-items:center;}
 .hero-section .presentation-content .story-video{position:relative; margin-bottom:2rem; display:flex;}
 .hero-section .presentation-content .story-video img{width:7rem; height:7rem; border-radius:50%; object-fit:cover;}
 .hero-section .presentation-content .story-video .button-wrapper{position:relative; top:0; left:-2rem;}
