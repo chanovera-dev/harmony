@@ -32,9 +32,9 @@
 /* sitemap */
 #sitemap{background-color:#f6f6f6;}
 :root {
-    --sitemap-section-item-height: 0.5rem;
-    --sitemap-section-item-margin-left: 2.25rem;
-    --sitemap-section-item-padding-top: 0.5rem;
+    --sitemap-section-item-height: 2.5rem;
+    --sitemap-section-item-margin-left: 2.5rem;
+    --sitemap-section-item-padding-top: 1.5rem;
 }
 
 .sitemap-section ul {
