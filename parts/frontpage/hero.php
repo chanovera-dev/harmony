@@ -6,7 +6,7 @@
         </div>
         <div class="presentation-content">
             <div class="story">
-                <div>
+                <div class="story-video">
                     <img src="http://localhost/harmony/wp-content/uploads/2023/08/armonia.jpeg" alt="armonía" width="60" height="60" loading="lazy">
                     <a href="http://">VIDEO DE DEMOSTRACIÓN</a>
                 </div>
