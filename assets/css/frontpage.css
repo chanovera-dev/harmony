@@ -2,10 +2,10 @@
 .hero-section .presentation-title :is(h1,h2){font-size:4rem; text-align:center;}
 .hero-section .presentation-title h1{font-weight:500;}
 .hero-section .presentation-content{display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:3rem;}
-.hero-section .presentation-content .story .title-wrapper{position:relative; border-bottom:2px solid rgba(0,0,0,.1);}
-.hero-section .presentation-content .story .title-wrapper .title{display:inline; position:relative; font-size:1.6rem; font-weight:500; margin-bottom:2rem;}
-.hero-section .presentation-content .story .title-wrapper .title:before{position:absolute; bottom:-5px; left:0; width:100%; height:2px; background-color:var(--color-text); content:'';}
-.hero-section .presentation-content .story p{margin-top:2rem;}
+.hero-section .presentation-content .story-text .title-wrapper{position:relative; border-bottom:2px solid rgba(0,0,0,.1);}
+.hero-section .presentation-content .story-text .title-wrapper .title{display:inline; position:relative; font-size:1.6rem; font-weight:500; margin-bottom:2rem;}
+.hero-section .presentation-content .story-text .title-wrapper .title:before{position:absolute; bottom:-5px; left:0; width:100%; height:2px; background-color:var(--color-text); content:'';}
+.hero-section .presentation-content .story-text p{margin-top:2rem;}
 .hero-section .presentation-content img{width:100%; border-radius:.8rem;}
 .hero-section .presentation-content .numbers{display:grid; gap:3rem; align-content:flex-end;}
 .hero-section .presentation-content .numbers h2{font-weight:400; font-size:4rem;}
