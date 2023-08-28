@@ -45,6 +45,8 @@ function frontpage_styles() {
     if ( is_front_page() or is_page_template('front-page.php') ) {
         wp_enqueue_style( 'frontpage-styles', get_template_directory_uri() . '/assets/css/frontpage.css' );
         wp_enqueue_style( 'forms-styles', get_template_directory_uri() . '/assets/css/forms.css' );
+        wp_enqueue_style( 'contact-styles', get_template_directory_uri() . '/assets/css/contact.css' );
+        wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' );
         // JS del frontpage
         wp_enqueue_script( 'header', get_template_directory_uri() . '/assets/js/frontpage.js', '', 1, true );
     }
