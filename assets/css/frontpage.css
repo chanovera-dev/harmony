@@ -29,6 +29,9 @@
 .hero-section .presentation-content figure figcaption{position:absolute; bottom:.6rem; right:.6rem;}
 .hero-section .presentation-content figure figcaption a{font-size:2rem; background-color:var(--background-color-main-content); color:var(--background-color-body); padding:0 1rem; border-radius:.4rem; display:inline-flex; align-items:center; gap:.7rem;}
 
+/* sitemap */
+#sitemap{background-color:#f6f6f6;}
+
 @media(min-width:1024px){
     .hero-section .presentation-content figure{grid-column:2/span 2;}
 }
