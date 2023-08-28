@@ -44,6 +44,8 @@ add_action( 'wp_enqueue_scripts', 'blog_styles' );
 function frontpage_styles() {
     if ( is_front_page() or is_page_template('front-page.php') ) {
         wp_enqueue_style( 'frontpage-styles', get_template_directory_uri() . '/assets/css/frontpage.css' );
+        // JS del frontpage
+        wp_enqueue_script( 'header', get_template_directory_uri() . '/assets/js/frontpage.js', '', 1, true );
     }
 }
 add_action( 'wp_enqueue_scripts', 'frontpage_styles' );
