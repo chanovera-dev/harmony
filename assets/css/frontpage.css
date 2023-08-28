@@ -81,7 +81,8 @@
     height: calc(var(--sitemap-section-item-padding-top) + var(--sitemap-section-item-height) / 2);
 }
 
-
+/* suscribe */
+.wpcf7-form{align-items:end;}
 @media(min-width:1024px){
     .hero-section .presentation-content figure{grid-column:2/span 2;}
 }
