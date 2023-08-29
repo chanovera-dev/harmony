@@ -1,5 +1,6 @@
 <section id="sitemap" class="container main-content">
     <div class="section sitemap-section">
+        <div class="title-wrapper"><h2 class="title">Mapa del sitio</h2></div>
         <ul >
             <li>
                 <a href="">
