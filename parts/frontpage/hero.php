@@ -7,7 +7,7 @@
         <div class="presentation-content">
             <div class="story">
                 <div class="story-video">
-                    <img src="http://localhost/harmony/wp-content/uploads/2023/08/armonia.jpeg" alt="armonía" width="60" height="60" loading="lazy">
+                    <img src="https://harmonylife.peramanzana.com/wp-content/uploads/2023/08/armonia.jpeg" alt="armonía" width="60" height="60" loading="lazy">
                     <div class="button-wrapper">
                         <a class="center" href="http://">
                             <svg viewBox="0 0 100 100">
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <figure>
-                <img src="http://localhost/harmony/wp-content/uploads/2023/08/armonia.jpeg" alt="armonía" width="600" height="400" loading="lazy">
+                <img src="https://harmonylife.peramanzana.com/wp-content/uploads/2023/08/armonia.jpeg" alt="armonía" width="600" height="400" loading="lazy">
                 <figcaption>
                     <a href="http://">
                         Saber más
