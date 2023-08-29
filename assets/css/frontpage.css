@@ -88,13 +88,14 @@
 
 /* suscribe */
 #suscribe{background-color:#937698;}
-.suscribe-section .title-wrapper{position:relative; border-bottom:2px solid rgba(255,255,255,.1); max-width:500px; margin-inline:auto; margin-bottom:2rem;}
+.suscribe-section .title-wrapper{position:relative; border-bottom:2px solid rgba(255,255,255,.1); max-width:500px; margin-inline:auto; margin-bottom:2rem; margin-top:31px;}
 .suscribe-section .title-wrapper .title{display:inline; position:relative; font-size:2rem; font-weight:500; color:var(--color-header);}
 .suscribe-section .title-wrapper .title:before{position:absolute; bottom:-5px; left:0; width:100%; height:2px; background-color:var(--color-header); content:'';}
 .suscribe-section .wpcf7-form{display:grid; width:min(100%, 500px); margin-inline:auto; grid-template-columns:1fr auto; align-items:end; gap:2rem;}
 .suscribe-section .wpcf7-form label{color:var(--color-header);}
-.suscribe-section .wpcf7-form input[type=email]{border-radius:.4rem; height:47.5px;}
-.suscribe-section .wpcf7-spinner{position:absolute;}
+.suscribe-section .wpcf7-form input[type=email]{border-radius:.4rem; height:47.5px; margin-bottom:31px;}
+.suscribe-section .wpcf7-form .wpcf7-submit{display:grid;}
+
 
 @media(min-width:1024px){
     .hero-section .presentation-content figure{grid-column:2/span 2;}
