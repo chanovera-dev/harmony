@@ -32,7 +32,7 @@
 /* sitemap */
 #sitemap{background-color:#f6f6f6;}
 .sitemap-section .title-wrapper{position:relative; border-bottom:2px solid rgba(0,0,0,.1); max-width:500px; margin-bottom:2rem;}
-.sitemap-section .title-wrapper .title{display:inline; position:relative; font-size:2rem; font-weight:500; color:var(--color-header);}
+.sitemap-section .title-wrapper .title{display:inline; position:relative; font-size:2rem; font-weight:500; color:var(--color-text);}
 .sitemap-section .title-wrapper .title:before{position:absolute; bottom:-5px; left:0; width:100%; height:2px; background-color:var(--color-text); content:'';}
 :root {
     --sitemap-section-item-height: 2.5rem;
